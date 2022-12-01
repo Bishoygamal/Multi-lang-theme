@@ -1,0 +1,36 @@
+$orange: #f2711c;
+$purple: #a333c8;
+$black: #000;
+.ar {
+  direction: rtl;
+}
+.header {
+  padding: 30px;
+  background: #eee;
+  margin-bottom: 30px;
+}
+.lang-switcher {
+  display: flex;
+  justify-content: space-between;
+}
+.purple {
+  h1,
+  .card .header {
+    color: $purple!important;
+  }
+}
+.dark {
+  h1,
+  .card .header {
+    color: $black!important;
+  }
+}
+.orange {
+  h1,
+  .card .header {
+    color: $orange!important;
+  }
+}
+.container .ui.card{
+    width: 100%;
+}
